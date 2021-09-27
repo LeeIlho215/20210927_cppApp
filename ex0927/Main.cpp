@@ -1,13 +1,16 @@
 #include <stdio.h>
 
-void printInt() {
-	for (int i = 0; i < 100; i++) {
+void printInt(int n) {
+	for (int i = 0; i < n; i++) {
 		printf("Hello : %d\n", i);
 	}
+	printf("\n");
 }
 
 int main() {
-	printInt();
+	printInt(250);
+	printInt(250);
+	printInt(250);
 }
 
 //#include <stdio.h>
